@@ -1,0 +1,47 @@
+h1{
+    display: flex;
+    margin-left: 410px;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+
+.camp-holder{
+    background-color: lightgreen;
+    width: 250px;
+    height:350px;
+    margin-bottom: 60px;
+    border-bottom: solid 1px black;
+    text-align: center;
+    cursor: pointer;
+
+    span{
+        font-weight: bold;
+    }
+
+    h4{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .description{
+        margin-top: 10px;
+
+    }
+
+    .price{
+        margin-top: 10px;
+    }
+
+    .available{
+        margin-top: 10px;
+    }
+}
+
+
+#app{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
